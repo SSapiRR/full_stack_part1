@@ -1,0 +1,18 @@
+.one{
+background-color: pink;
+font-family: 'Bodoni Moda', serif;
+width:25%;
+
+}
+
+.two{
+background-color: coral;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+width:50%;
+}
+
+.three{
+background-color: lawngreen;
+font-family: fantasy;
+width:100%;
+}

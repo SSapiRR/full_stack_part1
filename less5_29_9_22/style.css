@@ -1,0 +1,38 @@
+@media only screen and (max-width: 1000px) {
+    body {
+        background-color: darkcyan;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: darkviolet;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    body {
+        background-color: lawngreen;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: burlywood;
+    }
+}
+
+.d1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.d2 {
+    background-color: darkred;
+    border: 90px;
+    border-radius: 6px;
+    margin: 10px;
+    width: 30vw;
+    text-align: center; 
+}

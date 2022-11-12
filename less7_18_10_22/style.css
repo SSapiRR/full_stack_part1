@@ -1,0 +1,89 @@
+a {
+    color: white !important;
+}
+
+.black-font {
+    color: black !important;
+}
+
+.square {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: blue solid 1px;
+    animation: changeColor 3s linear infinite;
+}
+
+.square:hover {
+    animation: changeColor 0.5s linear infinite;
+}
+
+.square2 {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: blue solid 1px;
+    animation: rotateZ 3s linear infinite;
+}
+
+.square3 {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: blue solid 1px;
+    animation: rotateY 3s linear infinite;
+}
+
+
+.square2:hover {
+    background-color: blue;
+    border: red solid 1px;
+}
+
+.square3:hover {
+    background-color: blue;
+    border: red solid 1px;
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: hotpink;
+    }
+    25% {
+        background-color: rgba(236, 35, 102, 0.726);
+    }
+    50% {
+        background-color: rgb(238, 6, 37);
+    }
+    75% {
+        background-color: rgba(255, 0, 0, 0.719);
+    }
+    100% {
+        background-color: hotpink;
+    }
+}
+
+@keyframes rotateZ {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes rotateY {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+div.hidden {
+    visibility: hidden;
+}

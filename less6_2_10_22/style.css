@@ -1,0 +1,15 @@
+p {
+    text-shadow: 3px 3px 6px green;
+}
+
+p:active {
+    text-shadow: 3px 3px 6px pink;
+}
+
+button {
+    box-shadow: 5px 6px 8px black;
+}
+
+button:hover {
+    box-shadow: 5px 6px 8px red;
+}
