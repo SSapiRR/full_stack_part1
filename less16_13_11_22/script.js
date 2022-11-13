@@ -9,4 +9,3 @@ function co (a) {
 
 //task 2
 document.addEventListener("keypress", function(a){document.getElementById("h1").textContent = "you clicked: "+`${a.code}`});
-
