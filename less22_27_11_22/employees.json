@@ -1,0 +1,58 @@
+{
+    "employ1":{
+        "firstName": "David",
+        "lastName": "Choen", 
+        "age": 30,
+        "eyeColor": "green",
+        "numOfChilds": 2
+    },
+    "employ2":{
+        "firstName": "David",
+        "lastName": "Choen", 
+        "age": 21,
+        "eyeColor": "green",
+        "numOfChilds": 2
+    },
+    "employ3":{
+        "firstName": "David",
+        "lastName": "Choen", 
+        "age": 25,
+        "eyeColor": "green",
+        "numOfChilds": 2
+    },
+    "employ4":{
+        "firstName": "David",
+        "lastName": "Choen", 
+        "age": 50,
+        "eyeColor": "green",
+        "numOfChilds": 2
+    },
+    "employ5":{
+        "firstName": "David",
+        "lastName": "Choen", 
+        "age": 40,
+        "eyeColor": "green",
+        "numOfChilds": 2
+    },
+    "employ6":{
+        "firstName": "David",
+        "lastName": "Choen", 
+        "age": 53,
+        "eyeColor": "green",
+        "numOfChilds": 2
+    },
+    "employ7":{
+        "firstName": "David",
+        "lastName": "Choen", 
+        "age": 26,
+        "eyeColor": "green",
+        "numOfChilds": 2
+    },
+    "employ8":{
+        "firstName": "David",
+        "lastName": "Choen", 
+        "age": 33,
+        "eyeColor": "green",
+        "numOfChilds": 2
+    }
+}

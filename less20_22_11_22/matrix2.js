@@ -51,19 +51,50 @@ function matrixToArr(arr) {
 };
 
 
+// //not a good option 
+// function arrToMatrix(arr) {
+//     let arr1 = [];
+//     let num = Math.sqrt(arr.length);
+//     for (let i = 0; i < arr.length; i++) {
+//         arr1.push(arr.slice(0, num));
+//         arr.splice(0, num);
+//     }
+//     return arr1;
+// }
 
-function arrToMatrix(arr) {
-    let arr1 = [];
-    let num = Math.sqrt(arr.length);
-    for (let i = 0; i < arr.length; i++) {
-        arr1.push(arr.slice(0, num));
-        arr.splice(0, num);
+//not working
+function arrToMatrix(arr,num) {
+    let matrix, i, k;
+    for ( i=0, k=-1; i<arr.length; i++) {
+        if (i%num ===0) {
+            k++;
+            matrix[k] = [];
+        }
+        matrix[k].push(arr[i]);
     }
-    return arr1;
+    return matrix;
 }
 
-function indexC(i, j) {
-    return i + j + 2;
-}
+let arr7 =[1,2,3,4,5,6,7,8,9,10,11,12,13];
 
-console.log(indexC(1, 2));
+//let arr3 = [[1,2,3],[4,5,6],[7,8,9]];
+/**
+ * [1,2,3]
+ * [4,5,6]
+ * [7,8,9]
+ */
+/**
+ * 4 in (1,0) in 3th.  1*3+0;
+ * i*size+j
+ */
+
+let arr4 = [[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]]
+
+
+
+
+// function indexArr(arr,i,j,size) {
+//     return arr[i*size][j];
+// }
+
+console.log(box(2, arr4));
