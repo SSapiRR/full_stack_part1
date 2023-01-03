@@ -1,0 +1,23 @@
+#hw {
+    background: cornflowerblue;
+    border: solid 1px crimson;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#hw2 {
+    display: none;
+    background: goldenrod;
+    border: solid 1px floralwhite;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    cursor: pointer;
+    left: 300px;
+}
+
+#hw3 {
+    background-color: bisque;
+}

@@ -1,0 +1,17 @@
+{
+    "John" : {
+        "username" : "John",
+        "age" : 30,
+        "password" : 1234
+    },
+    "Mary" : {
+        "username" : "Mary",
+        "age" : 25,
+        "password" : "abcd"
+    },
+    "Peter" : {
+        "username" : "Peter",
+        "age" : 27,
+        "password" : 9876
+    }
+}
